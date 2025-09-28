@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.tiernoparla.alumnos.controller.AlumnoController">
+    <TextField fx:id="nombreField" promptText="Nombre"/>
+    <TextField fx:id="apellidosField" promptText="Apellidos"/>
+    <TextField fx:id="edadField" promptText="Edad"/>
+    <HBox spacing="10">
+        <Button text="Insertar" fx:id="insertarButton" onAction="#insertarAlumno"/>
+        <Button text="Listar" fx:id="listarButton" onAction="#listarAlumnos"/>
+    </HBox>
+    <ListView fx:id="listaAlumnos"/>
+</VBox>
