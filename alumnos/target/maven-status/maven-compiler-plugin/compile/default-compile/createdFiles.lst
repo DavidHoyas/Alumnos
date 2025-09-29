@@ -1,5 +1,4 @@
 com/tiernoparla/alumnos/service/AlumnoService.class
 com/tiernoparla/alumnos/controller/AlumnoController.class
-com/tiernoparla/alumnos/repository/AlumnoRepository.class
 com/tiernoparla/alumnos/model/Alumno.class
 com/tiernoparla/alumnos/App.class

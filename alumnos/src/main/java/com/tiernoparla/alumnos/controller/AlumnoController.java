@@ -2,6 +2,7 @@ package com.tiernoparla.alumnos.controller;
 
 import com.tiernoparla.alumnos.model.Alumno;
 import com.tiernoparla.alumnos.service.AlumnoService;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -22,9 +23,6 @@ public class AlumnoController {
     private AlumnoService service;
     private final ObservableList<String> alumnosObservable = FXCollections.observableArrayList();
 
-    /**
-     * Se debe llamar desde App.java después de cargar el FXML
-     */
     public void setService(AlumnoService service) {
         this.service = service;
         listaAlumnos.setItems(alumnosObservable);
@@ -51,7 +49,7 @@ public class AlumnoController {
             Alumno alumno = new Alumno(nombre, apellidos, edad);
             service.agregarAlumno(alumno);
             limpiarCampos();
-            listarAlumnos(); // Actualiza la lista automáticamente
+            listarAlumnos();
         } catch (NumberFormatException e) {
             mostrarAlerta("Error", "La edad debe ser un número válido.");
         }

@@ -1,5 +1,6 @@
 /home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/App.java
 /home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/controller/AlumnoController.java
 /home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/model/Alumno.java
-/home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/repository/AlumnoRepository.java
+/home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/model/db/AlumnoDAO.java
+/home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/model/db/AlumnoDAOImp.java
 /home/debian/Alumnos/alumnos/src/main/java/com/tiernoparla/alumnos/service/AlumnoService.java
