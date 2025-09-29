@@ -31,3 +31,13 @@ Permite **insertar**, **matricular**, **desmatricular** y **listar** alumnos.
 GitHub, clonar repositorio:  
    ```bash
    git clone https://github.com/DavidHoyas/Alumnos [nombre_de_la_carpeta]
+   ```
+
+---
+
+## Anotación
+Cuando intento ejecutar el proyecto me sale el siguiente error:
+   ```bash
+   Error: JavaFX runtime components are missing, and are required to run this application
+   ```
+He estado buscando como solucionarlo pero no consigo dar con ello.
